@@ -168,7 +168,20 @@ main p {
 .interest-list,
 .portfolio-list {
   grid-template-columns: 1fr 1fr 1fr;
-  align-items: center;
+  /* align-items: center; */
+}
+
+.portfolio-list {
+  grid-gap: 2rem;
+  justify-content: center;
+}
+
+.portfolio-list p {
+  text-align: left;
+}
+
+.portfolio-list div:last-child p {
+  text-align: center;
 }
 
 .skill div,
